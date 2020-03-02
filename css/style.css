@@ -1,0 +1,590 @@
+/* Global CSS Start */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Yeseva One', cursive;
+	font-size: 15px;
+	padding-bottom: 0px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Yeseva One', cursive;
+	font-size: 20px;
+}
+p{
+	font-family: 'Yeseva One', cursive;
+	font-size: 15px;
+}
+a{
+	font-family: 'Yeseva One', cursive;
+	font-size: 15px;
+}
+a:hover{
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+}
+/* Global CSS End */
+
+/* header-section CSS Start */
+.header-section{
+	width: 100%;
+	background-image: url(../images/banner.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.navbar{
+	padding: 0px;
+}
+.navbar-nav {
+    margin-bottom: 60px;
+}
+.navbar-collapse li a{
+	color: #f3f1f0;
+	font-size: 15px;
+	font-weight: 100;
+}
+.navbar-collapse li:hover{
+	border-top: 3px solid orange;
+}
+.banner-content{
+	text-align: center;
+}
+.banner-content h1{
+    font-size: 50px;
+    font-weight: 400;
+    color: #f5f5f4;
+    padding-top: 90px;
+    padding-bottom: 10px;
+}
+.driver-img{
+	padding-bottom: 25px;
+}
+.banner-button-left{
+	float: right;
+}
+.banner-button-left .btn-primary{
+	background: #00000061;
+    border: none;
+    padding: 10px 34px;
+}
+.banner-button-right .btn-primary{
+	background: #ffffff38;
+    border: none;
+    padding: 10px 34px;
+}
+.banner-button-right{
+	margin-bottom: 200px;
+}
+.navbar-wrapper {
+  margin-top: 10px;
+  position: relative;
+  z-index: 15;
+}
+.isStuck{
+    left: 0px;
+    width: 100%;
+}
+/* header-section CSS End */
+
+/* food-section CSS Start */
+.food-section{
+	width: 100%;
+	background-image: url(../images/s.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 50px 0px;
+}
+.food-content{
+	text-align: center;
+}
+.food-content h1{
+	font-size: 22px;
+	color: #cc9900;
+	padding-top: 55px;
+}
+.food-content p{
+	color: #cacaca;
+	padding-bottom: 25px;
+}
+/* food-section CSS End */
+
+/* ingredients section CSS Start  */
+.ingredients-section{
+	width: 100%;
+	background-image: url(../images/ib.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 50px 0px;
+}
+.ingredients-content h1{
+	font-size: 18px;
+	color: #ffffff;
+}
+.ingredients-content p{
+	font-size: 14px;
+	color: #ffffff;
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+.ingredients-content{
+	text-align: center;
+    background: #00000087;
+    padding: 49px;
+    margin-top: 68px;
+    margin-bottom: 60px;
+}
+.ingredients-img{
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+/* ingredients section CSS End */
+/* Menu Section CSS Start */
+.menu-section{
+	width: 100%;
+	padding: 50px 0px;
+	background-image: url(../images/mb.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.menu-left h1{
+	font-size: 30px;
+	text-align: center;
+	color: #cc9900
+}
+.menu-left h5{
+	color: #cc9900;
+}
+.menu-left p{
+	color: #4c4c4c;
+	font-size: 12px;
+}
+.menu-driver-img{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.m-dollor{
+	float: right;
+}
+.m-offer .btn-primary{
+    background-color: #d9c17d;
+    color: #f8fafa;
+    border: navajowhite;
+    font-size: 10px;
+    padding: 2px 15px;
+}
+.m-s-offer{
+	float: right;
+}
+.row{
+	margin-left: 0px;
+}
+.col-md-8{
+	padding-left: 0px;
+}
+hr{
+    margin-top: 0rem;
+    margin-bottom: 10px;
+    border: .5px solid #e2d4a6;
+    width: 100%;
+}
+.border{
+	border: .5px solid #e2d4a6!important;
+}
+/* Menu Section CSS End */
+
+/* reviews Section CSS Start */
+.reviews-section{
+	width: 100%;
+	background-image: url(../images/tb.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 50px 0px;
+}
+.reviews-content h1{
+	font-size: 18px;
+	color: #ffffff;
+}
+.reviews-content p{
+	font-size: 14px;
+	color: #ffffff;
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+.reviews-content{
+	text-align: center;
+    background: #00000087;
+    padding: 49px;
+    margin-top: 68px;
+    margin-bottom: 60px;
+}
+/* reviews Section CSS End */
+
+/* rightfood-section CSS Start */
+.rightfood-section{
+	width: 100%;
+	background-image: url(../images/mb.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 70px 0px;
+}
+.right-food-img{
+	width: 100%;
+}
+.right-food-img img{
+	width: 100%;
+}
+.food-heading{
+	text-align: center;
+	padding-bottom: 30px;
+}
+.food-heading h1{
+	font-size: 22px;
+	color: #cc9900;
+}
+.food-1st-content{
+	text-align: center;
+}
+.food-1st-content p{
+	font-size: 12px;
+	color: #4c4c4c;
+}
+.food-contact-form{
+	margin-top: 15px;
+}
+.food-contact-form label{
+	font-size: 16px;
+	color: #cc9900;
+}
+.form-control {
+	font-size: 11px;
+}
+.form-group {
+    margin-bottom: 7px;
+}
+.button{
+	text-align: center;
+	margin-top: 30px;
+}
+.button .btn-primary{
+	background-color: #c9a131;
+    font-size: 12px;
+    padding: 5px 35px;
+    border: none;
+}
+/* rightfood-section CSS End */
+
+/* foorter-section CSS Start */
+.foorter-section{
+	width: 100%;
+	background-color: #191919;
+	padding: 40px 0px;
+}
+.about-us-content{
+	text-align: center;
+}
+.about-us-content h3{
+	font-size: 20px;
+	color: #fefefe;
+	padding-bottom: 20px;
+}
+.about-us-content p{
+	font-size: 14px;
+	color: #fefefe;
+	padding-top: 20px;
+}
+.opening-content{
+	text-align: center;
+}
+.opening-content h3{
+	font-size: 20px;
+	color: #fefefe;
+	padding-bottom: 20px;
+}
+.opening-content p{
+	font-size: 14px;
+	color: #fefefe;
+	padding-top: 20px;
+}
+.opening-content ul li{
+	display: inline-block;
+	padding-top: 25px;
+	padding-left: 5px;
+}
+.location-content h3{
+	font-size: 20px;
+	color: #fefefe;
+	padding-bottom: 20px;
+}
+.location-content p{
+	font-size: 20px;
+	color: #fefefe;
+	padding-bottom: 20px;
+}
+.location-content ul li{
+	display: inline-block;
+	padding-top: 8px;
+	padding-left: 5px; 
+}
+/* foorter-section CSS End */
+
+
+/* Media Quary CSS Start */
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+ /* header-section CSS Start */
+ .navbar img{
+ 	width: 85px;
+ }
+.banner-content h1{
+    font-size: 25px;
+    padding-top: 45px;
+}
+.banner-button-left{
+	float: right;
+    position: absolute;
+    left: 190px;
+}
+.banner-button-left .btn-primary{
+	padding: 7px 29px;
+    font-size: 10px;
+}
+.banner-button-right .btn-primary{
+   	padding: 7px 29px;
+    font-size: 10px;
+}
+.banner-button-right{
+	margin-bottom: 100px;
+}
+/* header-section CSS End */
+/* food-section CSS Start */
+.food-section{
+	padding: 0px 0px;
+}
+.food-content h1{
+	font-size: 20px;
+    padding-top: 35px;
+}
+.food-content p{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 9px;
+}
+.food-man-img img{
+	width: 60px;
+}
+/* food-section CSS End */
+/* ingredients section CSS Start  */
+.ingredients-section{
+	padding: 0px 0px;
+}
+.ingredients-content h1{
+	font-size: 21px;
+}
+.ingredients-content p{
+	font-size: 10px;
+	padding-top: 15px;
+	padding-bottom: 0px;
+}
+.ingredients-content{
+	padding: 26px;
+    margin-top: 55px;
+    margin-bottom: 45px;
+}
+.ingredients-img{
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+/* ingredients section CSS End */
+/* Menu Section CSS Start */
+.menu-section{
+	padding: 30px 0px;
+}
+.menu-left h1{
+	font-size: 20px;
+}
+.menu-left h5{
+	font-size: 15px;
+	position: absolute;
+}
+.menu-left p{
+	color: #4c4c4c;
+	font-size: 9px;
+}
+.menu-driver-img{
+	text-align: center;
+	padding-bottom: 10px;
+}
+/* Menu Section CSS End */
+/* reviews Section CSS Start */
+.reviews-section{
+	padding: 0px 0px;
+}
+.reviews-content h1{
+	font-size: 18px;
+	color: #ffffff;
+}
+.reviews-content p{
+	padding-bottom: 0px;
+	font-size: 10px;
+}
+.reviews-content{
+	padding: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+/* reviews Section CSS End */
+/* rightfood-section CSS Start */
+.rightfood-section{
+	width: 100%;
+	background-image: url(../images/mb.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 70px 0px;
+}
+.right-food-img{
+	width: 100%;
+}
+.right-food-img img{
+	width: 100%;
+}
+.food-heading{
+	text-align: center;
+	padding-bottom: 30px;
+}
+.food-heading h1{
+	font-size: 22px;
+	color: #cc9900;
+}
+.food-1st-content{
+	text-align: center;
+}
+.food-1st-content p{
+	font-size: 12px;
+	color: #4c4c4c;
+}
+.food-contact-form{
+	margin-top: 15px;
+}
+.food-contact-form label{
+	font-size: 16px;
+	color: #cc9900;
+}
+.form-control {
+	font-size: 11px;
+}
+.form-group {
+    margin-bottom: 7px;
+}
+.button{
+	text-align: center;
+	margin-top: 30px;
+}
+.button .btn-primary{
+	background-color: #c9a131;
+    font-size: 12px;
+    padding: 5px 35px;
+    border: none;
+}
+/* rightfood-section CSS End */
+/* foorter-section CSS Start */
+.foorter-section{
+	width: 100%;
+	background-color: #191919;
+	padding: 40px 0px;
+}
+.about-us-content{
+	text-align: center;
+}
+.about-us-content h3{
+	font-size: 20px;
+	color: #fefefe;
+	padding-bottom: 20px;
+}
+.about-us-content p{
+	font-size: 14px;
+	color: #fefefe;
+	padding-top: 20px;
+}
+.opening-content{
+	text-align: center;
+}
+.opening-content h3{
+	font-size: 20px;
+	color: #fefefe;
+	padding-bottom: 20px;
+}
+.opening-content p{
+	font-size: 14px;
+	color: #fefefe;
+	padding-top: 20px;
+}
+.opening-content ul li{
+	display: inline-block;
+	padding-top: 25px;
+	padding-left: 5px;
+}
+.location-content{
+	text-align: center;
+}
+.location-content h3{
+	font-size: 20px;
+	color: #fefefe;
+	padding-bottom: 20px;
+}
+.location-content p{
+	font-size: 20px;
+	color: #fefefe;
+	padding-bottom: 20px;
+}
+.location-content ul li{
+	display: inline-block;
+	padding-top: 8px;
+	padding-left: 5px; 
+}
+/* foorter-section CSS End */
+}
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  
+}
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  //CSS
+  
+}
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  //CSS
+  
+}
+
+
+
+/* Media Quary CSS End */
